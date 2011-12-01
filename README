@@ -1,0 +1,17 @@
+This program will utilize multigrid methods used to solve differential equations. To review, 
+multigrid uses grids of different granularities and switches between them to increase to rate of 
+convergence for the finest granularity grid while avoiding the need to compute an exact 
+solution on any but the coarsest grid.
+
+Accepts Grids throught stdin of dimensions (2^i + 1)x(2^i + 1).
+
+Sample Input:
+-273.15 -273.15 -273.15 -273.15 -273.15
+-273.15    0.00    0.00    0.00 -273.15
+-273.15    0.00    0.00    0.00 -273.15
+-273.15    0.00    0.00    0.00 -273.15
+ 100.00  100.00  100.00  100.00  100.00
+
+A more complete writeup is available at http://www.philipbjorge.com
+
+Released under a New BSD style license.
